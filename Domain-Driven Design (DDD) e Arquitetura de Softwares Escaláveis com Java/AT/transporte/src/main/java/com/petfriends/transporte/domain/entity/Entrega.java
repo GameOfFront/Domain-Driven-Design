@@ -1,6 +1,5 @@
 package com.petfriends.transporte.domain.entity;
 
-
 import com.petfriends.transporte.valueobject.EnderecoDestino;
 import jakarta.persistence.*;
 import lombok.*;
@@ -57,7 +56,6 @@ public class Entrega {
         this.statusEntrega = StatusEntrega.DEVOLVIDO;
     }
 
-    // ==== Enum interno ====
     public enum StatusEntrega {
         EM_TRANSPORTE,
         ENTREGUE,
